@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "sourceMap": false,
+      "declaration": false,
+      "removeComments": false,
+      "noImplicitAny": false,
+      "outDir": "./ConvertedJSFiles",
+      "types": ["jasmine", "node"]
+    },
+    "include" :[
+      "Pages",
+      "Tests"
+    ],
+    "exclude": [
+      "node_modules",
+        "Utils"
+    ]
+  }
